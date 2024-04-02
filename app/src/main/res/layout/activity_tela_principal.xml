@@ -43,7 +43,7 @@
         android:id="@+id/text_NomeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gustavo daodako"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -66,7 +66,7 @@
         android:id="@+id/text_EmailUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gstv@gmail.com"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -76,6 +76,7 @@
         app:layout_constraintStart_toEndOf="@id/iconeEmail" />
 
     <Button
+        android:id="@+id/bt_deslogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
